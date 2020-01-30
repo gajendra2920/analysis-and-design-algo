@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,mult=0;
+    cout<<"enter the value of x";
+    cin>>x;
+    cout<<"enter the value of y";
+    cin>>y;
+    for(int i=0;i<y;i++)
+    {
+       mult=mult+x;
+    }
+cout<<"mult="<<mult<<endl;
+
+    
+}
